@@ -15,11 +15,12 @@ h2 {
 font-family: 'Satisfy';font-size: 30px;
 text-align: center;
 }
-
+/*comp is being shown now*/
 .comp {
 	font-family: 'Satisfy';font-size: 70px;
 text-align: center;
 }
+/*now phone isn't showing because it has nothing to display*/
 .phone {
 	display: none;
 }
@@ -38,7 +39,7 @@ text-align: center;
 	align-items: center;
 	justify-content: center;
 }
-
+/*this is the big rectangle boxes that have the other 2 child divs in it*/
 .flex-container {
 	display: flex;
 	flex-wrap: wrap; 
@@ -98,9 +99,8 @@ text-align: center;
    display: none;
 }
 	
-
+/*the media query is when I want to add breakpoints within the webpage. it makes changes to the diplay of the content*/	
 @media only screen and (max-width: 500px) {
-
 
 .para {
   display: none;
@@ -114,9 +114,13 @@ text-align: center;
    font-style: normal;
    text-align: center;
 }
+
+/*comp isn't showing anymore when it goes to the max width of 500px*/		
 .comp {
 	display: none;
 }
+/*
+/*now phone is visable*/	
 .phone {
 	font-size: 36px;
 	display: flex;
